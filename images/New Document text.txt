@@ -1,0 +1,16 @@
+function validateForm(){
+	let usernameElement=document.getElementById("username");
+	let passwordElement=document.getElementById("password");
+	let rePasswordElement=document.getElementById("repassword");
+	if(passwordElement.value!=rePasswordElement.value || passwordElement.value.length==0)
+	{alert("please make sure the password is entered the same twice");return;}
+
+	if (usernameElement.value.length<4)
+	{alert("please make sure the username is longer than 4 letters");return;		}
+	document.forms[0].submit();
+	}
+
+
+
+
+http://localhost/phpmyadmin/index.php?route=/sql&db=project&table=user&pos=0
