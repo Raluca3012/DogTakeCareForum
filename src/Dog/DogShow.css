@@ -1,0 +1,30 @@
+/* Dog.css */
+
+/* Dog container styles */
+.dog {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Dog list styles */
+  .dog ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Dog list item styles */
+  .dog li {
+    margin-bottom: 10px;
+  }
+  
+  /* Dog link styles */
+  .dog a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .dog a:hover {
+    text-decoration: underline;
+  }
+  
